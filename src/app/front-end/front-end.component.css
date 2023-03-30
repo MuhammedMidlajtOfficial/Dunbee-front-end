@@ -1,0 +1,396 @@
+@import url('https://fonts.googleapis.com/css2?family=Inder&family=Montserrat&family=Raleway&display=swap');
+
+*{
+    box-sizing: border-box;
+    overflow-x:hidden ;
+}
+
+/* first-page */
+
+.first-page{
+    background-image:url(src/assets/Images/first-img.jpg);
+    height: 100vh;
+    width: 100vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-bottom: 3px solid #AA0302;
+}
+
+.nav-logo{
+    height: 100px;
+    width: 200px;
+    margin: 20px 0 0 30px;
+    backdrop-filter: blur(0px);
+}
+.first-page-content{
+    margin: 150px 0 50px 150px;
+    color: #ffffff;
+    font-size: 40px;
+    font-family:'Inder', sans-serif;
+}
+#premium-accessories{
+    font-size: 50px;
+}
+.first-page-all-btn{
+    display: flex;
+
+}
+.first-page-btn{
+    height: 60px;
+    width: 170px;
+    font-weight: bold;
+    color: #ffffff;
+    border: 0;
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 5px;
+
+}
+
+.btn-view-product{
+    background-color: #1D2E00;
+    margin-left: 150px;
+}
+.btn-view-product:hover{
+    background-color: #fff;
+    color:#1D2E00 ;
+    transform: scale(1);
+    transition: all 600ms ease-in-out;
+}
+.btn-contact-us{
+    background-color: #000000;
+    margin-left: 70px;
+}
+.btn-contact-us:hover{
+    background-color: #fff;
+    color: #000;
+    transform: scale(1);
+    transition: all 600ms ease-in-out;
+}
+/* first-page */
+
+/* second-page */
+
+.second-page{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+}
+.second-page-vector{
+    overflow: hidden;
+}
+.second-page-content{
+    margin: 150px 0 0 70px;
+    font-family:'Inder', sans-serif;
+
+}
+#shop-by{
+    margin: 0;
+    font-size: 20px;
+    font-weight: bold;
+}
+#categories{
+    margin-top:20px ;
+    font-size: 30px;
+    font-weight: bold;
+    
+}
+#lorum-ipsum{
+    font-size: 22px;
+    margin-top: 0;
+
+}
+
+.second-page-content-lorum-ipsum{
+    width: 500px;
+}
+
+
+.second-page-pic{
+    display: flex;
+    flex-direction: row;
+}
+.first-rect , .second-rect , .third-rect{
+    cursor: pointer;
+}
+/* second-page */
+
+/* Third-page */
+.third-page{
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+}
+.third-page-nav{
+    
+    display: flex;
+    justify-content: space-between;
+
+}
+.third-page-all-btns{
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+    height: 15%;
+    padding: 20px;
+    margin: 40px 30% 0 30% ;
+}
+.third-page-btn{
+    width: 150px;
+    height: 50px;
+    background-color: #fff;
+    border: 0;
+    font-size: 17.6px;
+    font-weight: bold;
+    box-shadow: 2px 7px 7px grey;
+    letter-spacing: 4px;
+}
+
+
+
+.third-page-btn:hover{
+    transform: scale(1.05);
+    transition: all 100ms ease-in-out;
+    cursor: pointer;
+    /* background: #F50000;
+    color: #ffffff; */
+    transition: 0.1s;
+}
+
+.third-page-btn-default{
+    background-color: #F50000;
+    color: #ffffff;
+}
+
+.third-page-products{
+    margin: 40px 10% 0 10%;
+    flex-direction: row;
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+}
+
+.third-page-products-defaule-style{
+    width: 321px;
+    height: 318px;
+    background-size: cover;
+
+}
+.third-page-products-details{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.details-header{
+    font-family:'Inder', sans-serif;
+    font-weight: bold;
+    color: #f50000;
+    font-size: 22px;
+    margin: 25px 0 0 0;
+}
+.details-content{
+    font-family:'Inder', sans-serif;
+    font-weight: bold;
+}
+.details-star{
+    font-size: 25px;
+    margin: 2px ;
+
+    }
+.details-star-checked{
+    color: orange;
+
+}
+.details-star-checked-01:hover{
+    color: orange;
+}
+.details-btn{
+    width: 130px;
+    height: 40px;
+    border: 0;
+    font-size: 17.6px;
+    font-weight: bold;
+    box-shadow: 2px 7px 7px grey;
+    letter-spacing: 2px;
+    margin: 10px;
+}
+.details-btn:hover{
+    cursor: pointer;
+    
+}
+/* Third-page */
+
+/* forth-page */
+
+.forth-page{
+    height: 600px;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+}
+.forth-page-content{
+    position: relative;
+    width: 55%;
+    overflow: visible;
+    
+}
+.forth-page-vector{
+    height: 500px;
+    max-width: auto;
+    z-index: 2;
+    margin-top: 55px;
+}
+.forth-page-supra{
+    z-index: 3;
+    position: absolute;
+    top: 65px;
+    left: 90px;
+    height: 500px;
+    min-width: auto;
+    
+}
+.forth-page-latest-news{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.latest-news{
+    font-family:'Inder', sans-serif;
+    font-weight: bold;
+    font-size: 35px;
+    display: flex;
+    justify-content: center;
+    width: 655px;
+    color: #bf0000;
+}
+.latest-news-lorum-ipsum{
+    font-family:'Inder', sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    width: 430px;  
+    text-align:justify;
+}
+/* forth-page */
+/* fifth-page */
+
+.fifth-page{
+    height: 600px;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+.fifth-page-boxes{
+    padding: 0 30px;
+    display: flex;
+    margin-top: 60px;
+}
+.box-01{
+    height: 400px;
+    width: 280px;
+    background-color: #3D3939;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-right: 30px;
+}
+.box-01:hover{
+    background-color: #F50000;
+    cursor: pointer;
+    
+}
+#box-01-last-child{
+    margin-right: 0;
+}
+.box-content-header{
+    font-family:'Inder', sans-serif;
+    font-weight: 800;
+    color: #fff;
+    font-size: 40px;
+    letter-spacing: 2px;
+    margin: 30px 0 10px 0;
+}
+.box-content-child{
+    margin: 0;
+    font-family:'Inder', sans-serif;
+    font-weight: bold;
+    font-size:25px ;
+    color: #fff;
+    letter-spacing: 2px;
+    margin-bottom: 15px;
+}
+.box-img-01{
+    height: 250px;
+    min-width: auto;
+}
+/* fifth-page */
+/* sixth-page */
+
+.sixth-page{
+    width: 100vw;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+}
+
+.sixth-page-box{
+    width: 800px;
+    height: 150px;
+    background-color: #3D3939;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 5px;
+}
+.sixth-page-subscription-sign-up{
+    color: #fff;
+    font-weight: bold;
+    font-family:'Inder', sans-serif;
+    font-size: 22px;
+}
+.mail{
+    display: flex;
+    justify-content: center;
+}
+.email-box{
+    width: 350px;
+    height: 50px;
+    border: 0;
+    background-color: #c5c0c0;
+    border-radius: 2px 0 0 2px;
+    font-family:'Inder', sans-serif;
+    color: #fff;
+    font-weight: bold;
+    padding: 15px;
+    font-size: 18px;
+    opacity: 1;
+    letter-spacing: 1px;
+}
+.sixth-page-subscribe-btn{
+    width: 150px;
+    height: 50px;
+    border: 0;
+    background-color: #F50000;
+    color: #fff;
+    font-weight: bold;
+    font-size: 15px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    border-radius:0 2px 2px 0;
+
+}
+.sixth-page-subscribe-btn:hover{
+    background-color: #fff;
+    color: #f50000;
+}
+.mail input::placeholder{
+    color: #fff;
+    font-weight: bold;
+    font-size: 18px;
+    opacity: 0.5;
+    letter-spacing: 1px;
+}
+/* sixth-page */
