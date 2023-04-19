@@ -4,7 +4,32 @@
     box-sizing: border-box;
     overflow-x:hidden ;
 }
+/* navbar */
+.nav{
+    display: flex;
+    justify-content: space-between;
+}
+.navbar{
+    display: flex; 
+    justify-content: space-between;
+    margin-right: 100px;
+    margin-top: 15px;
+}
+.navbar-style{
+    color: #ded8da;
+    font-family:'Inder', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+.navbar-style:hover{
+    color: #fff;
+    transform: scale(1);
+    transition: all 600ms ease-in-out;
+}
 
+/* navbar */
 /* first-page */
 
 .first-page{
@@ -17,10 +42,14 @@
 }
 
 .nav-logo{
-    height: 100px;
-    width: 200px;
+    height: 75px;
+    width: 164px;
     margin: 20px 0 0 30px;
     backdrop-filter: blur(0px);
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    
 }
 .first-page-content{
     margin: 150px 0 50px 150px;
